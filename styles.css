@@ -7,18 +7,26 @@
     font-size: 14pt;
 }
 
-/* .nav-link {
+.d-flex justify-content-center py-3 {
+    background: none;
+}
+
+.nav nav-pills nav-fill {
     background: none;
 }
 
 .nav-item {
     background: none;
-} */
+}
+
+.nav-link {
+    background: none;
+}
 
 .mainContainer {
     width: 100%;
     display: flex;
-    background-color: transparent;
+    background: none;
     justify-content: center;
 }
 
@@ -56,19 +64,77 @@
     background: none;
 }
 
-#facebookSVG {
-    /* border-radius: 50%; */
+/* ------------------------- About Page ------------------------- */
+
+h1 {
+    background: none;
 }
 
-#gitSVG {
-    /* border-radius: 50%; */
+h2 {
+    background: none;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    background: none;
+    grid-area: 1/2;
 }
 
-#instagramSVG {
-    /* border-radius: 50%; */
+p {
+    background: none;
 }
 
-/* -------------------------- Responsivo -------------------------- */
+a {
+    background: none;
+    color: #ED5AB3;
+}
+
+li {
+    background: none;
+    font-size: 14pt;
+}
+
+.firstTextContainer {
+    background: none;
+    width: 100%;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+}
+
+.firstText {
+    background: none;
+    grid-area: 2/1;
+    font-size: 20pt;
+}
+
+.secondTextContainer {
+    background: none;
+    width: 100%;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+}
+
+.firstList {
+    background: none;
+    text-align: justify;
+    align-items: normal;
+    grid-area: 2/2;
+    grid-column: span 3;
+}
+
+.secondText {
+    background: none;
+    grid-area: 3/2;
+    font-size: 20pt;
+}
+
+/* ------------------------- Responsivo ------------------------- */
 
 @media (min-width: 1400px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
